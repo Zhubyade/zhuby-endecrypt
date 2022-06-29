@@ -57,7 +57,7 @@ def decrypt_text(AES_instance, input_text):
 
 
 def dashboard(AES_instance):
-    st.title("AES Data Security Demo")
+    st.title("zhuby Data Security")
     st.sidebar.title("Configurations")
     task = st.sidebar.radio("Task Type",
                             [
